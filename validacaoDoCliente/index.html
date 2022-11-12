@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./index.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+    <div class="input-contaier">
+        <label for="name">Nome</label>
+        <input name="name" type="text" placeholder="Coloque seu nome"/>
+    </div>
+    <div class="input-contaier"></div>>
+        <label for="email">Email</label>
+        <input name="email" type="email" placeholder="Coloque o seu email" />
+    </div>
+    <div class="input-contaier">
+        <label for="password">Senha</label>
+        <input
+           name="password"
+           type="password"
+           placeholder="Coloque sua senha"
+        />
+    </div>
+    <div class="input-container input-radio">
+        <label for="legalAge">Você é maior de idade?</label>
+        <div class="horizontal-container">
+            <div class="radio-container">
+                <p>Sim</p>
+                <input 
+                name="legalAge"
+                type="radio"
+                value="true"
+                class="age-input"
+                id="age_yes"
+                />
+            </div>
+            <div class="radio-container">
+                <p>Não</p>
+                <input 
+                name="legalAge"
+                type="radio"
+                value="true"
+                class="age-input"
+                id="age_no"
+                />
+            </div>
+        </div>
+        <div class="input-container">
+            <div class="tyc-container">
+                <input name="termsAndConditions" 
+                type="checkbox"
+                id="tyc-input"
+                />
+                <p>Li e aceito os termos e condições</p>
+            </div>
+        </div>
+    </div>
+    <button class="register-btn" type="submit">Registre-se</button>
+    </form> 
+</body>
+</html>

@@ -1,5 +1,5 @@
 let darkMode = document.querySelector('body').classList.add('darkMode');
-console.log(darkMode);
+// console.log(darkMode);
 
 // console.log(confirmacao);
 let dark = document.querySelector('.darkMode');

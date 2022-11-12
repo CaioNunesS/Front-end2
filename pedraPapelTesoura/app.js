@@ -57,6 +57,7 @@ do {
     } else {
         exit()
     }
+    
 
 alert("Pontos Maquina: " + machine);            
 alert("Seus pontos: " + player);             
