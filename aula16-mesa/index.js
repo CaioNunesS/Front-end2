@@ -102,24 +102,24 @@ consultandoBaseDeDados
         /* -------------------------------- TAREFAS -------------------------------- */
         // Aqui  devem desenvolver uma função que é exibida na tela:
         
-        let div = document.querySelector('.card');
+        let card = document.querySelector('.card');
 
         let img = document.createElement('img');
          img.classList.add('imagem');
          img.src = data.imagem.media;
          img.alt =  `img ${data.nome.primeiro}`;
-         div.appendChild(img)
+         card.appendChild(img)
 
     
         let nome = document.createElement('h2');
         nome.classList.add('nome');
         nome.innerText = `${data.nome.titulo} ${data.nome.primeiro} ${data.nome.utlimo}`;
-        div.appendChild(nome)
+        card.appendChild(nome)
 
         let email = document.createElement('h2');
         email.classList.add('email');
         email.innerText = data.email;
-        div.appendChild(email)
+        card.appendChild(email)
 
     } ;
 
