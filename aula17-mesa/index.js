@@ -113,7 +113,7 @@ consultandoBaseDeDados
     
         let nome = document.createElement('h2');
         nome.classList.add('nome');
-        nome.innerText = `${data.nome.titulo} ${data.nome.primeiro} ${data?.nome?.utlimo}`;
+        nome.innerText = `${data.nome.titulo} ${data.nome.primeiro} ${data.nome.utlimo}`;
         div.appendChild(nome)
 
         let email = document.createElement('h2');
