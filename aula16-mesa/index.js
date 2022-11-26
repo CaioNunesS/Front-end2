@@ -75,15 +75,15 @@ let consultandoBaseDeDados = new Promise((resolve, reject) => {
 
 });
 
-fetch('https://randomuser.me/api/')
-.then(response => {
-    return response.json()
-})
-.then(data => {
-    //manipulamos a resposta
-    // console.log(data)
-    renderizarDadosUsuario(data)
-});
+// fetch('https://randomuser.me/api/')
+// .then(response => {
+//     return response.json()
+// })
+// .then(data => {
+//     //manipulamos a resposta
+//     // console.log(data)
+//     renderizarDadosUsuario(data)
+// });
 
 
 // Aqui realizamos uma consulta da promessa, aguardando sua resposta assíncrona
@@ -97,7 +97,7 @@ consultandoBaseDeDados
         console.log(err);
     });
 
-    window.onload = async (event) => {
+    
         function renderizarDadosUsuario(data) {
         /* -------------------------------- TAREFAS -------------------------------- */
         // Aqui  devem desenvolver uma função que é exibida na tela:
@@ -120,5 +120,7 @@ consultandoBaseDeDados
         email.classList.add('email');
         email.innerText = data.email;
         div.appendChild(email)
-    } 
-    renderizarDadosUsuario(dataBase.resultado[0])}
+
+    } ;
+
+    renderizarDadosUsuario(dataBase.resultado[0])
