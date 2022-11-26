@@ -16,8 +16,6 @@
 body{
 background: linear-gradient(110deg, var(--primary), var(--secondary));
 height: 100vh;
-/* display: flex; */
-/* justify-items:flex-end ; */
 text-align: center;
 }
 
@@ -61,10 +59,7 @@ font-size: 20px;
   font-size: smaller;
 }
 
-.btnContainer{
-  padding: 20px 0;
-  text-align: center;
-}
-.btnContainer button{
-  padding: 5px 15px;
+
+#button{
+    background-color: rgb(114, 124, 114);
 }

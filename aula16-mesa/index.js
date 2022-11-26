@@ -116,7 +116,7 @@ consultandoBaseDeDados
         nome.innerText = `${data.nome.titulo} ${data.nome.primeiro} ${data.nome.utlimo}`;
         card.appendChild(nome)
 
-        let email = document.createElement('h2');
+        let email = document.createElement('p');
         email.classList.add('email');
         email.innerText = data.email;
         card.appendChild(email)
